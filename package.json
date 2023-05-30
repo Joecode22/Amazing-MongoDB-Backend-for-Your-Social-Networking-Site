@@ -1,0 +1,15 @@
+{
+  "name": "amazing-mongodb-backend-for-your-social-networking-site",
+  "version": "1.0.0",
+  "description": "This product is open source and licensed under the MIT License\r [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^7.0.2"
+  },
+  "author": "Joseph McKinney",
+  "license": "MIT"
+}
