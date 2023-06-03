@@ -10,6 +10,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(routes);
 
+// Error handling for database connection
+db.on('error', console.error.bind(console, 'connection error:'));
+
+
 //start server
 db.once('open', () => {
     app.listen(PORT, () => {
