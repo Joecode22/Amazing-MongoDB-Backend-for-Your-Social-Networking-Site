@@ -48,6 +48,11 @@ const ThoughtSchema = new Schema(
       type: String,
       required: true,
     },
+    // Adding userId to link the thought to a user
+    userId: {
+      type: Schema.Types.ObjectId,
+      ref: 'User'
+    },
     reactions: [ReactionSchema]
   },
   {
