@@ -22,7 +22,7 @@ This product is open source and licensed under the MIT License
 
 ## Application
 
-This application can run on a local installation or a MongoDB Atlas cloud installation. Modifications can be made to the db in the connections.js within the config folder to accomodate your db setup. This installation uses dotenv to secure sensitive enviromental variables.
+This application can run on a local installation or a MongoDB Atlas cloud installation. Modifications can be made to the db connection in connections.js within the config folder to accomodate your db setup. This installation uses dotenv to secure sensitive enviromental variables.
 
 ## Video
 
