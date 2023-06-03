@@ -22,13 +22,15 @@ This product is open source and licensed under the MIT License
 
 ## Application
 
-
+This application can run on a local installation or a MongoDB Atlas cloud installation. Modifications can be made to the db in the connections.js within the config folder to accomodate your db setup. This installation uses dotenv to secure sensitive enviromental variables.
 
 ## Video
 
 https://github.com/Joecode22/Amazing-MongoDB-Backend-for-Your-Social-Networking-Site/assets/93625431/faec95a9-97d7-4641-a305-2f785105f4f4
 
 ## Installation
+
+The server can be started by using the command `node index.js` from the main directory
 
 ## Contributing
 
